@@ -1,4 +1,4 @@
 package co.edu.uniquindio;
 
-public class Usuario {
+public class RecogerDatos {
 }
