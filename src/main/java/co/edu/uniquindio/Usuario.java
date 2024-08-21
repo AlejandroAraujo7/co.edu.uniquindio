@@ -1,27 +1,29 @@
-package co.edu.uniquindio;
-import javax.swing.JOptionPane;
-import java.util.ArrayList;
-
-
-class Usuario {
+public class Usuario {
     private String nombre;
-    private String cedula;
-    private String email;
-    private String celular;
+    private int edad;
+    private double peso;
+    private String placaVehiculo;
 
-    public Usuario(String nombre, String cedula, String email, String celular) {
+    // Constructor
+    public Usuario(String nombre, int edad, double peso, String placaVehiculo) {
         this.nombre = nombre;
-        this.cedula = cedula;
-        this.email = email;
-        this.celular = celular;
-
+        this.edad = edad;
+        this.peso = peso;
+        this.placaVehiculo = placaVehiculo;
     }
 
-
-
-    public String Tostring() {
-        return "Nombre:" + nombre + "Cedula: " + cedula + "Email " + email + "Celular " + celular;
-
+    // Getters
+    public int getEdad() {
+        return edad;
     }
 
+    public double getPeso() {
+        return peso;
+    }
+
+    public String getPlacaVehiculo() {
+        return placaVehiculo;
+    }
+    public String getNombre(){
+    return nombre;}
 }
