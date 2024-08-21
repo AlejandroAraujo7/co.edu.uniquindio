@@ -1,10 +1,11 @@
+package co.edu.uniquindio;
 public class Usuario {
     private String nombre;
     private int edad;
     private double peso;
     private String placaVehiculo;
 
-    // Constructor
+
     public Usuario(String nombre, int edad, double peso, String placaVehiculo) {
         this.nombre = nombre;
         this.edad = edad;
@@ -12,7 +13,7 @@ public class Usuario {
         this.placaVehiculo = placaVehiculo;
     }
 
-    // Getters
+
     public int getEdad() {
         return edad;
     }
