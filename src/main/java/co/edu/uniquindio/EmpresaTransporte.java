@@ -35,7 +35,7 @@ public class EmpresaTransporte {
     private static void mostrarMenu() {
 
         JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(0, 1)); // Layout vertical
+        panel.setLayout(new GridLayout(0, 1));
 
 
         JButton btnPeso = new JButton("Usuarios con peso mayor");
